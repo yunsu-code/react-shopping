@@ -1,0 +1,71 @@
+/* Helvetica */
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  /* stylelint-disable-next-line declaration-colon-space-after */
+  src:
+    local("Helvetica"),
+    url("../../fonts/Helvetica.woff") format("woff")
+      url("../../fonts/Helvetica.eot") format("eot")
+      url("../../fonts/Helvetica.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  /* stylelint-disable-next-line declaration-colon-space-after */
+  src:
+    local("Helvetica"),
+    url("../../fonts/Helvetica-Bold.woff") format("woff")
+      url("../../fonts/Helvetica-Bold.eot") format("eot")
+      url("../../fonts/Helvetica-Bold.woff2") format("woff2");
+}
+
+/* Constantia */
+@font-face {
+  font-family: "Constantia";
+  font-style: normal;
+  font-weight: 400;
+  /* stylelint-disable-next-line declaration-colon-space-after */
+  src:
+    local("Constantia"),
+    url("../../fonts/Constantia-Regular.woff") format("woff")
+      url("../../fonts/Constantia-Regular.eot") format("eot")
+      url("../../fonts/Constantia-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Constantia";
+  font-style: normal;
+  font-weight: 700;
+  /* stylelint-disable-next-line declaration-colon-space-after */
+  src:
+    local("Constantia"),
+    url("../../fonts/Constantia-Bold.woff") format("woff")
+      url("../../fonts/Constantia-Bold.eot") format("eot")
+      url("../../fonts/Constantia-Bold.woff2") format("woff2");
+}
+
+/* NotoSansKR */
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 400;
+  /* stylelint-disable-next-line declaration-colon-space-after */
+  src:
+    local("NotoSans"),
+    url("../../fonts/NotoSansKR-Regular.woff") format("woff")
+      url("../../fonts/NotoSansKR-Regular.eot") format("eot")
+      url("../../fonts/NotoSansKR-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 700;
+  /* stylelint-disable-next-line declaration-colon-space-after */
+  src:
+    local("NotoSans"),
+    url("../../fonts/NotoSansKR-Bold.woff") format("woff")
+      url("../../fonts/NotoSansKR-Bold.eot") format("eot")
+      url("../../fonts/NotoSansKR-Bold.woff2") format("woff2");
+}
