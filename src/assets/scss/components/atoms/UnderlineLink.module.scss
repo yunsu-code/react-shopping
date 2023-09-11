@@ -1,0 +1,22 @@
+.lineLink {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: unset;
+  }
+  // color
+  &.pink {
+    color: $pink;
+  }
+  &.white {
+    color: $white;
+  }
+  &.black {
+    color: $black;
+  }
+  &.darkBlack {
+    color: $darkBlack;
+  }
+  &.light {
+    color: $light;
+  }
+}

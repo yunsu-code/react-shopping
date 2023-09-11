@@ -1,0 +1,36 @@
+.vdSlide {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  video {
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+  }
+  .desc {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    padding: 0 30px 58px 45px;
+    box-sizing: border-box;
+    span {
+      font-size: 10px;
+    }
+    h2 {
+      font-family: $engTitle;
+      font-weight: 400;
+      font-size: 35px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}

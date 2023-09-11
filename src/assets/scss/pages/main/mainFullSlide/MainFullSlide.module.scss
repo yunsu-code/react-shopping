@@ -1,0 +1,34 @@
+.mainSection {
+  .swiper {
+    height: 100%;
+    position: relative;
+    .prev {
+      width: 40px;
+      height: 40px;
+      background-image: url("../../../../img/icon/slide-left-white.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      z-index: 1;
+      background-color: rgba($color: #fff, $alpha: 0.2);
+    }
+    .next {
+      width: 40px;
+      height: 40px;
+      background-image: url("../../../../img/icon/slide-right-white.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      z-index: 1;
+      background-color: rgba($color: #fff, $alpha: 0.2);
+    }
+  }
+}

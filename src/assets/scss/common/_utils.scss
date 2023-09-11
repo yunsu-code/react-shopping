@@ -1,0 +1,45 @@
+$url: '../img/';
+
+// font
+$engTitle: 'Constantia';
+$eng: 'Helvetica';
+
+$sm: 13px;
+$base: 15px;
+$m: 18px;
+$lg: 20px;
+$lg2: 25px;
+$xl: 35px;
+$title: 50px;
+
+// color
+$pink: #a36d6a;
+$deepPink: #936d6a;
+$black: #4e3836;
+$darkBlack: #333333;
+$gray: #706f6c;
+$white: #fff;
+$light: rgba(255, 255, 255, 0.7);
+
+// media query
+// $breakpoint-mobile: '';
+$breakpoint-tablet: '900px';
+// $breakpoint-desktop: '1024px';
+
+@mixin mobile {
+  @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$breakpoint-desktop}) {
+    @content;
+  }
+}
